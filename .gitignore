@@ -167,3 +167,7 @@ group_config/
 # local dev
 local/
 *legacy*
+
+# --- Allow segood code (folder name 'data' is code here) ---
+!openood/segood/data/
+!openood/segood/data/**
